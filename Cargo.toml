@@ -1,0 +1,9 @@
+[package]
+name = "TDRS-AI-Training"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+burn = { version = "~0.19", features = ["std", "tui", "train", "vision", "wgpu", "fusion"], default-features = false }
+burn-import = "0.19.0"
+image = { version = "0.25.8", features = ["jpeg", "png"] }
